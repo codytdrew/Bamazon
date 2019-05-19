@@ -11,8 +11,6 @@ CREATE TABLE products (
     stock_quantity INT(10) NOT NULL,
     primary key(item_id)
     );
-    
-SELECT * FROM products;
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Yo-Yo", "Toys", 13.67, 50);
@@ -24,7 +22,7 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Nerf Gun", "Toys", 32.09, 100);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Nerf Gun", "Toys", 32.09, 100);
+VALUES ("Bouldering Shoes", "Outdoors", 83.63, 100);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Kids Bop Volume 80000", "Music", 5.48, 2);
@@ -43,3 +41,5 @@ VALUES ("Water Balloons", "Toys", 4.50, 1000);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Puzzle", "Games", 12.62, 65);
+
+SELECT * FROM products;
